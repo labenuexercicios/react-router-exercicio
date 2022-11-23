@@ -1,8 +1,11 @@
+import Header from "../components/Header";
+
 function ErrorPage() {
   return (
-    <section>
+    <main>
+    <Header />
       <h1>Página não encontrada</h1>
-    </section>
+      </main>
   );
 }
 
